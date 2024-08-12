@@ -1,0 +1,309 @@
+@font-face {
+  font-family: exo2-black;
+  src: url(./../fonts/Exo2/Exo2-Black.eot);
+  src: url(./../fonts/Exo2/Exo2-Black.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-Black.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-Black.woff) format('woff'),url(./../fonts/Exo2/Exo2-Black.svg#Exo2-Black) format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-black-italic;
+  src: url(./../fonts/Exo2/Exo2-BlackItalic.eot);
+  src: url(./../fonts/Exo2/Exo2-BlackItalic.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-BlackItalic.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-BlackItalic.woff) format('woff'),url(./../fonts/Exo2/Exo2-BlackItalic.svg#Exo2-BlackItalic) format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-bold;
+  src: url(./../fonts/Exo2/Exo2-Bold.eot);
+  src: url(./../fonts/Exo2/Exo2-Bold.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-Bold.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-Bold.woff) format('woff'),url(./../fonts/Exo2/Exo2-Bold.svg#Exo2-Bold) format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-bold-italic;
+  src: url(./../fonts/Exo2/Exo2-BoldItalic.eot);
+  src: url(./../fonts/Exo2/Exo2-BoldItalic.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-BoldItalic.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-BoldItalic.woff) format('woff'),url(./../fonts/Exo2/Exo2-BoldItalic.svg#Exo2-BoldItalic) format('svg');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-extrabold-italic;
+  src: url(./../fonts/Exo2/Exo2-ExtraBoldItalic.eot);
+  src: url(./../fonts/Exo2/Exo2-ExtraBoldItalic.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-ExtraBoldItalic.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-ExtraBoldItalic.woff) format('woff'),url(./../fonts/Exo2/Exo2-ExtraBoldItalic.svg#Exo2-ExtraBoldItalic) format('svg');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-extrabold;
+  src: url(./../fonts/Exo2/Exo2-ExtraBold.eot);
+  src: url(./../fonts/Exo2/Exo2-ExtraBold.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-ExtraBold.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-ExtraBold.woff) format('woff'),url(./../fonts/Exo2/Exo2-ExtraBold.svg#Exo2-ExtraBold) format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-extralight;
+  src: url(./../fonts/Exo2/Exo2-ExtraLight.eot);
+  src: url(./../fonts/Exo2/Exo2-ExtraLight.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-ExtraLight.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-ExtraLight.woff) format('woff'),url(./../fonts/Exo2/Exo2-ExtraLight.svg#Exo2-ExtraLight) format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-extralight-italic;
+  src: url(./../fonts/Exo2/Exo2-ExtraLightItalic.eot);
+  src: url(./../fonts/Exo2/Exo2-ExtraLightItalic.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-ExtraLightItalic.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-ExtraLightItalic.woff) format('woff'),url(./../fonts/Exo2/Exo2-ExtraLightItalic.svg#Exo2-ExtraLightItalic) format('svg');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-semibold-italic;
+  src: url(./../fonts/Exo2/Exo2-SemiBoldItalic.eot);
+  src: url(./../fonts/Exo2/Exo2-SemiBoldItalic.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-SemiBoldItalic.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-SemiBoldItalic.woff) format('woff'),url(./../fonts/Exo2/Exo2-SemiBoldItalic.svg#Exo2-SemiBoldItalic) format('svg');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-semibold;
+  src: url(./../fonts/Exo2/Exo2-SemiBold.eot);
+  src: url(./../fonts/Exo2/Exo2-SemiBold.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-SemiBold.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-SemiBold.woff) format('woff'),url(./../fonts/Exo2/Exo2-SemiBold.svg#Exo2-SemiBold) format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-light;
+  src: url(./../fonts/Exo2/Exo2-Light.eot);
+  src: url(./../fonts/Exo2/Exo2-Light.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-Light.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-Light.woff) format('woff'),url(./../fonts/Exo2/Exo2-Light.svg#Exo2-Light) format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-light-italic;
+  src: url(./../fonts/Exo2/Exo2-LightItalic.eot);
+  src: url(./../fonts/Exo2/Exo2-LightItalic.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-LightItalic.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-LightItalic.woff) format('woff'),url(./../fonts/Exo2/Exo2-LightItalic.svg#Exo2-LightItalic) format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-medium;
+  src: url(./../fonts/Exo2/Exo2-Medium.eot);
+  src: url(./../fonts/Exo2/Exo2-Medium.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-Medium.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-Medium.woff) format('woff'),url(./../fonts/Exo2/Exo2-Medium.svg#Exo2-Medium) format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-medium-italic;
+  src: url(./../fonts/Exo2/Exo2-MediumItalic.eot);
+  src: url(./../fonts/Exo2/Exo2-MediumItalic.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-MediumItalic.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-MediumItalic.woff) format('woff'),url(./../fonts/Exo2/Exo2-MediumItalic.svg#Exo2-MediumItalic) format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-regular;
+  src: url(./../fonts/Exo2/Exo2-Regular.eot);
+  src: url(./../fonts/Exo2/Exo2-Regular.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-Regular.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-Regular.woff) format('woff'),url(./../fonts/Exo2/Exo2-Regular.svg#Exo2-Regular) format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-italic;
+  src: url(./../fonts/Exo2/Exo2-Italic.eot);
+  src: url(./../fonts/Exo2/Exo2-Italic.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-Italic.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-Italic.woff) format('woff'),url(./../fonts/Exo2/Exo2-Italic.svg#Exo2-Italic) format('svg');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-thin-italic;
+  src: url(./../fonts/Exo2/Exo2-ThinItalic.eot);
+  src: url(./../fonts/Exo2/Exo2-ThinItalic.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-ThinItalic.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-ThinItalic.woff) format('woff'),url(./../fonts/Exo2/Exo2-ThinItalic.svg#Exo2-ThinItalic) format('svg');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap
+}
+
+@font-face {
+  font-family: exo2-thin;
+  src: url(./../fonts/Exo2/Exo2-Thin.eot);
+  src: url(./../fonts/Exo2/Exo2-Thin.eot?#iefix) format('embedded-opentype'),url(./../fonts/Exo2/Exo2-Thin.woff2) format('woff2'),url(./../fonts/Exo2/Exo2-Thin.woff) format('woff'),url(./../fonts/Exo2/Exo2-Thin.svg#Exo2-Thin) format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: nunito_sansblack;
+  src: url(./../fonts/NunitoSans/nunitosans-black-webfont.woff2) format('woff2'),url(./../fonts/NunitoSans/nunitosans-black-webfont.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: nunito_sansbold;
+  src: url(./../fonts/NunitoSans/nunitosans-bold-webfont.woff2) format('woff2'),url(./../fonts/NunitoSans/nunitosans-bold-webfont.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: nunito_sansextrabold;
+  src: url(./../fonts/NunitoSans/nunitosans-extrabold-webfont.woff2) format('woff2'),url(./../fonts/NunitoSans/nunitosans-extrabold-webfont.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: nunito_sansextralight;
+  src: url(./../fonts/NunitoSans/nunitosans-extralight-webfont.woff2) format('woff2'),url(./../fonts/NunitoSans/nunitosans-extralight-webfont.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: nunito_sanslight;
+  src: url(./../fonts/NunitoSans/nunitosans-light-webfont.woff2) format('woff2'),url(./../fonts/NunitoSans/nunitosans-light-webfont.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: nunito_sansregular;
+  src: url(./../fonts/NunitoSans/nunitosans-regular-webfont.woff2) format('woff2'),url(./../fonts/NunitoSans/nunitosans-regular-webfont.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: nunito_sanssemibold;
+  src: url(./../fonts/NunitoSans/nunitosans-semibold-webfont.woff2) format('woff2'),url(./../fonts/NunitoSans/nunitosans-semibold-webfont.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+.font-exo2-200 {
+  font-family: exo2-extralight!important
+}
+
+.font-exo2-200-italic {
+  font-family: exo2-extralight-italic!important
+}
+
+.font-exo2-300 {
+  font-family: exo2-light!important
+}
+
+.font-exo2-300-italic {
+  font-family: exo2-light-italic!important
+}
+
+.font-exo2-400 {
+  font-family: exo2-regular!important
+}
+
+.font-exo2-400-italic {
+  font-family: exo2-italic!important
+}
+
+.font-exo2-500 {
+  font-family: exo2-medium!important
+}
+
+.font-exo2-500-italic {
+  font-family: exo2-medium-italic!important
+}
+
+.font-exo2-600 {
+  font-family: exo2-semibold!important
+}
+
+.font-exo2-600-italic {
+  font-family: exo2-semibold-italic!important
+}
+
+.font-exo2-700 {
+  font-family: exo2-bold!important
+}
+
+.font-exo2-700-italic {
+  font-family: exo2-bold-italic!important
+}
+
+.font-exo2-800 {
+  font-family: exo2-extrabold!important
+}
+
+.font-exo2-800-italic {
+  font-family: exo2-extrabold-italic!important
+}
+
+.font-exo2-900 {
+  font-family: exo2-black!important
+}
+
+.font-exo2-900-italic {
+  font-family: exo2-black-italic!important
+}
+
+.font-nunito-sans-200 {
+  font-family: nunito_sansextralight
+}
+
+.font-nunito-sans-300 {
+  font-family: nunito_sanslight
+}
+
+.font-nunito-sans-400 {
+  font-family: nunito_sansregular
+}
+
+.font-nunito-sans-500 {
+  font-family: nunito_sanssemibold
+}
+
+.font-nunito-sans-600 {
+  font-family: nunito_sansbold
+}
+
+.font-nunito-sans-800 {
+  font-family: nunito_sansextrabold
+}
+
+.font-nunito-sans-900 {
+  font-family: nunito_sansblack
+}
